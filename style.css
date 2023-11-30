@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+
+.container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background-color: rgb(27, 27, 27);
+}
+
+.container__menu {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.5em;
+
+}
+
+.menu__texto{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    margin: 0 2.5em 0 0;
+    font-size: 20px;
+    
+
+}
+
+.menu__texto:hover{
+    color: rgb(43, 226, 150);
+}
+
+.container__menu__titulo:hover{
+    color: rgb(43, 226, 150);
+}
+
+.titulo__do__conteudo{
+    font-size: 150px;
+    margin: 10% 10% 3%;
+}
+
+.texto__do__conteudo{
+    font-size: 18px;
+    margin-left: 8em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+
+}
+
+.container__menu__titulo{
+    text-decoration: none;
+    margin: 0 0 0 2.5em;
+    color: rgb(109, 109, 109);
+}
+
